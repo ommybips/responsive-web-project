@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+html,
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  line-height: 3rem;
+  min-width: 290px;
+}
+
+header {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+nav {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  border-right: solid;
+}
+
+#navbar ul {
+  padding: 0;
+  overflow-x: hidden;
+  margin-top: 0;
+}
+
+#navbar a {
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  color: black;
+  cursor: pointer;
+  padding-left: 25px;
+  transition: transform 0.3s ease;
+}
+
+#navbar a:hover {
+  transform: scale(1.1);
+}
+
+main {
+  margin-left: 330px;
+  margin-right: 50px;
+  padding-top: 10px;
+  position: absolute;
+  padding-bottom: 0;
+}
+
+#title {
+  border-bottom: 1px solid black;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+code {
+  display: block;
+  background-color: rgba(241, 243, 243, 1);
+  margin-left: 1rem;
+  width: 90%;
+  padding: 1rem;
+  border-radius: 6px;
+  white-space: pre-line;
+  line-height: 2;
+}
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 195px;
+  }
+
+  nav {
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+  }
+
+  main {
+    position: relative;
+    margin-left: 30px;
+    margin-top: 270px;
+    margin-bottom: 0px;
+  }
+
+  #title {
+    border: none;
+  }
+}
