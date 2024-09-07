@@ -28,7 +28,7 @@ img{
 }
 
 #menu {
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -57,6 +57,7 @@ main{
   width: 100%;
   top: 0;
   background-color: #fff4ee;
+  height:180px;
   }
 
   nav {
@@ -64,18 +65,18 @@ main{
   }
 
 img{
-  height:100px;
+  height:80px;
   display:block;
   margin: auto auto;
 }
 
 #menu {
   width:100%;
-  margin:20px auto
+  margin:20px auto;
   }
 
   #get_start{
-  margin:170px auto 0 auto;
+  margin:190px auto 0 auto;
   text-align:center;
   display:block;
 }
