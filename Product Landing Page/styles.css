@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html,
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+img{
+  padding: 15px
+}
+
+ nav {
+  position: fixed;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  background-color:#fff4ee;
+  z-index: 100;
+}
+
+#iframe-container{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+}
+
+.nav-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  margin:10px;
+}
+
+#get_start{
+  margin-top:150px;
+  text-align:center;
+}
+
+main{
+  z-index:1;
+}
+
+@media screen and (max-width: 600px) {
+  #header{
+   position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff4ee;
+  }
+
+  nav {
+  display:block;
+  }
+
+img{
+  height:100px;
+  display:block;
+  margin: auto auto;
+}
+
+#menu {
+  width:100%;
+  margin:20px auto
+  }
+
+  #get_start{
+  margin:170px auto 0 auto;
+  text-align:center;
+  display:block;
+}
+}
+
+input[type="email"]{
+  padding:5px;
+  border-radius:4px;
+  border:1px solid pink;
+}
+
+input[type="submit"]{
+  padding:5px;
+  border-radius:4px;
+  border:1px solid pink;
+  width:60px;
+  margin-left:2px;
+  background-color:#fff4ee
+}
+
+.question{
+   text-align:center;
+}
